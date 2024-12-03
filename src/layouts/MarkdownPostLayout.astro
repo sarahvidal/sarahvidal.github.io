@@ -1,0 +1,19 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+<BaseLayout pageTitle={frontmatter.title}>
+  <div class="flex flex-row items-center gap-8 my-12">
+    <h1 class="text-5xl font-passion">{frontmatter.title}</h1>
+    <img class="h-12" src="/public/ligne_droite.svg" alt="">
+  </div>
+  <div class="flex justify-between items-center gap-8">
+    <img class="w-1/2" src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+    <p>{frontmatter.description}</p>
+  </div>
+
+  <!-- <p>{frontmatter.pubDate.toString().slice(0,10)}</p> -->
+  <!-- <p>Written by: {frontmatter.author}</p> -->
+
+  <slot />
+</BaseLayout>

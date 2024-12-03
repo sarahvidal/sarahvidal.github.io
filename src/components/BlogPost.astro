@@ -1,0 +1,13 @@
+---
+const { title, url, src } = Astro.props;
+---
+
+<li class="relative group">
+    <a href={url}>
+        <img class="w-full h-40 sm:h-48 md:h-56 lg:h-72 xl:h-96 object-cover shadow-md rounded" src={src} alt="">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
+            <h1 class="text-lg font-semibold" >{title}</h1>
+        </div>
+    </a>
+</li>
+

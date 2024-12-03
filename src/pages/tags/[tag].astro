@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogPost from "../../components/BlogPost.astro";
+import { getCollection } from "astro:content";
+import NavBis from "../../components/NavBis.astro"; 
+
+
+export async function getStaticPaths() {
+
+  const allPosts = await getCollection("posts");
+  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.data.tags.includes(tag)
+    );
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+---
+<BaseLayout pageTitle={tag}>
+  <div class="flex flex-row items-center gap-8 my-12">
+    <h1 class="text-5xl font-passion z-10">{tag}</h1>
+    <svg width="400" height="80" viewBox="0 0 978 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="path" d="M68 68H910" stroke="#E9E8E8" stroke-width="135" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+  </div>
+  <ul class="grid grid-cols-2 gap-4 mb-14">
+    {
+      posts.map((post) => (
+        <BlogPost src={post.data.image.url} url={"/posts/" + post.slug} title={post.data.title} />
+      ))
+    }
+  </ul>
+  <NavBis/>
+</BaseLayout>
+
+<style>
+
+  .path {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s linear forwards;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+</style>

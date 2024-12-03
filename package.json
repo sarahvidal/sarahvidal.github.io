@@ -1,0 +1,21 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^3.5.0",
+    "@astrojs/rss": "^4.0.7",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.11.1",
+    "preact": "^10.11.3",
+    "tailwindcss": "^3.4.15"
+  }
+}
