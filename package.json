@@ -8,7 +8,10 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+      "postdeploy": "echo 'Deployment complete!'"
   },
   "dependencies": {
     "@astrojs/preact": "^3.5.0",
@@ -17,5 +20,8 @@
     "astro": "^4.11.1",
     "preact": "^10.11.3",
     "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
