@@ -1,19 +1,45 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import NavBis from "../components/NavBis.astro";
 const { frontmatter } = Astro.props;
 ---
+
 <BaseLayout pageTitle={frontmatter.title}>
-  <div class="flex flex-row items-center gap-8 my-12">
-    <h1 class="text-5xl font-passion">{frontmatter.title}</h1>
-    <img class="h-12" src="/public/ligne_droite.svg" alt="">
-  </div>
-  <div class="flex justify-between items-center gap-8">
-    <img class="w-1/2" src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-    <p>{frontmatter.description}</p>
-  </div>
+    <div class="flex flex-row items-center gap-8 my-12">
+      <h1 class="text-5xl font-passion">{frontmatter.title}</h1>
+      <img class="h-12" src="/public/ligne_droite.svg" alt="" />
+    </div>
+  <section class="grid grid-cols-2 gap-8 mb-8">
+    <div class="grid grid-cols-2 gap-4">
+      <img class="w-full" src="/public/projet_panazol/accueil.png" alt="" />
+      <img class="w-full" src="/public/projet_panazol/agenda.png" alt="" />
+      <img
+        class="w-full col-span-2"
+        src="/public/projet_panazol/nouvelhabitant.png"
+        alt=""
+      />
+    </div>
+    <div class="flex flex-col justify-between">
+      <div class=" flex flex-col gap-4 py-6">
+        <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
+        <p class="text-xl ">{frontmatter.description}</p>
+      </div>
+      <img class="w-full" src="/public/projet_panazol/agenda.png" alt="">
+    </div>
+  </section>
+  <section class="flex gap-8">
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="800"
+      height="450"
+      src="https://embed.figma.com/proto/bRrG4yNaheKcj0q1TbugLN/Mairie-Panazol?node-id=54-18311&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=54%3A18310&starting-point-node-id=54%3A18311&show-proto-sidebar=1&embed-host=share"
+      allowfullscreen
+    >
+    </iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/bRrG4yNaheKcj0q1TbugLN/Mairie-Panazol?node-id=188-18565&node-type=frame&scaling=scale-down&content-scaling=fixed&page-id=188%3A15917&starting-point-node-id=188%3A18565&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+  </section>
 
-  <!-- <p>{frontmatter.pubDate.toString().slice(0,10)}</p> -->
-  <!-- <p>Written by: {frontmatter.author}</p> -->
-
+  
   <slot />
+  
 </BaseLayout>

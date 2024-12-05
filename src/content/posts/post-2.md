@@ -1,7 +1,7 @@
 ---
 title: UX / UI site de Goire Issoire
 author: Sarah Vidal
-description: "After learning some Astro, I couldn't stop!"
+description: "Lors de mon stage à l'agence GEMAP, j'ai eu la chance de travailler sur"
 image:
   url: "/public/ux/goire_issoire.png"
   alt: "Mockup site de Goire Issoire"
