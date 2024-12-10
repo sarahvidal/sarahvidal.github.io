@@ -8,10 +8,14 @@ export default {
 			  'passion':["Passion One"]
 			},
 			fontSize : {
-			  '10xl':'13rem',
+			  '11xl':'13rem',
+			  '10xl':'10rem',
 			},
 			backgroundColor:{
 			  'light-red': '#D54F40',
+			},
+			screens:{
+				'xs': '500px',
 			}
 		  },
 	},

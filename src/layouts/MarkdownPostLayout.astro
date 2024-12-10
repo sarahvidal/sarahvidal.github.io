@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import NavBis from "../components/NavBis.astro";
 const { frontmatter } = Astro.props;
 ---
 
@@ -11,11 +10,11 @@ const { frontmatter } = Astro.props;
     </div>
   <section class="grid grid-cols-2 gap-8 mb-8">
     <div class="grid grid-cols-2 gap-4">
-      <img class="w-full" src="/public/projet_panazol/accueil.png" alt="" />
-      <img class="w-full" src="/public/projet_panazol/agenda.png" alt="" />
+      <img class="w-full" src={frontmatter.image2} alt="" />
+      <img class="w-full" src={frontmatter.image3} alt="" />
       <img
         class="w-full col-span-2"
-        src="/public/projet_panazol/nouvelhabitant.png"
+        src={frontmatter.image4}
         alt=""
       />
     </div>
