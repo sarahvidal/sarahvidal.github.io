@@ -5,60 +5,37 @@ const pageTitle = "Home2";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <section class="h-screen flex flex-col gap-52 justify-around">
-    <div class="relative flex flex-col m-4">
-      <h1 class="lg:text-11xl md:text-10xl sm:text-9xl xs:text-8xl text-6xl font-passion z-10">Portfolio</h1>
-      <svg
-        class="absolute top-1/3 2xl:left-1/3 xl:left-1/2 left-2/3 "
-        width="2833"
-        height="554"
-        viewBox="0 0 2833 554"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          class="path responsive-path"
-          d="M68 68V486.5H2765"
-          stroke="#E9E8E8"
-          stroke-width="135"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg>
+  <section class="h-screen flex flex-col items-center justify-center gap-16 relative">
+    <h3 class="font-passion text-2xl text-center">Sarah Vidal</h3>
+    <div class="flex flex-col items-center m-4 gap-10">
+      <div class="relative">
+        <h1
+          class="lg:text-11xl md:text-10xl sm:text-9xl xs:text-8xl text-6xl font-passion tracking-widest relative z-10"
+        >
+          Portfolio
+        </h1>
+        <div
+          class="absolute inset-0 -z-10 bg-no-repeat bg-contain before:absolute before:inset-0 before:bg-[url('/public/contour-titre.svg')] before:bg-no-repeat before:scale-90 before:w-full before:h-full"
+        >
+        </div>
+      </div>
+
+      <NavBis />
+      <img
+        src="/public/fleche-gauche.svg"
+        alt=""
+        class="absolute left-[20%] top-[75%]"
+      />
+      <img
+        src="/public/fleche-gauche2.svg"
+        alt=""
+        class="absolute left-[44%] bottom-[15%]"
+      />
+      <img
+        src="/public/fleche-droite.svg"
+        alt=""
+        class="absolute right-[5%] top-[65%]"
+      />
     </div>
-    <NavBis />
   </section>
 </BaseLayout>
-
-<style>
-  body {
-    overflow: hidden;
-  }
-
-  .path {
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 2000;
-    animation: dash 3s linear forwards;
-  }
-
-  .responsive-path{
-    stroke-width: 135;
-  }
-
-@media (max-width: 1280px) {
-  .responsive-path {
-    stroke-width: 100; 
-  }
-}
-
-@media (max-width: 480px) {
-  .responsive-path {
-    stroke-width: 60; 
-  }
-}
-
-  @keyframes dash {
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-</style>
