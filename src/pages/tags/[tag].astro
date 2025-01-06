@@ -25,33 +25,22 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 <BaseLayout pageTitle={tag}>
-  <div class="flex flex-row items-center gap-8 my-12">
-    <h1 class="text-5xl font-passion z-10">{tag}</h1>
-    <svg width="400" height="80" viewBox="0 0 978 136" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path class="path" d="M68 68H910" stroke="#E9E8E8" stroke-width="135" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+  <div class="flex justify-between">
+    <a href="/"><img class="w-1/6" src="/accueil.svg" alt=""></a>
+    <h3 class="text-2xl font-passion">Sarah Vidal</h3>
   </div>
-  <ul class="grid grid-cols-2 gap-4 mb-14">
+  <div class="flex flex-col items-center gap-8 my-8">
+    <h1 class="text-5xl font-passion z-10">{tag}</h1>
+    <NavBis/>
+  </div>
+    
+  
+  <ul class="grid grid-cols-2 gap-4 my-10">
     {
       posts.map((post) => (
         <BlogPost src={post.data.image.url} url={"/posts/" + post.slug} title={post.data.title} />
       ))
     }
   </ul>
-  <NavBis/>
+  
 </BaseLayout>
-
-<style>
-
-  .path {
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 2000;
-    animation: dash 3s linear forwards;
-  }
-
-  @keyframes dash {
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-</style>
