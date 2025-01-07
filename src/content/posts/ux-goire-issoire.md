@@ -11,8 +11,8 @@ tags: ["UX UI"]
 
 <section class="flex flex-col gap-28">
 
-<section class="grid grid-cols-2 justify-between gap-28">
-  <div class=" flex flex-col gap-4 py-6">
+<section class="grid grid-cols-2 justify-center gap-28">
+  <div class=" flex flex-col justify-center gap-4 py-6">
     <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
     <p class="text-xl ">Lors de mon stage à l'agence GEMAP, j'ai pu réaliser une partie d'un appel d'offre qui consistait à faire la refonte du site de la mairie de Panazol.
 Ma mission était de revoir l'arborescence du site avec le brief qu'avait donné le commanditaire ainsi que de réaliser des parcours utilisateurs. Par la suite j'ai réalisé un wireframe en prenant en compte ce qu'avait indiqué le client tout en faisant attention à ce que le site soit ergonomique et facil d'utilisation. Enfin, j'ai aussi pu réalisé le début de la maquette du site en suivant leur charte graphique</p>
