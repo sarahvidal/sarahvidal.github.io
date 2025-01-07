@@ -25,9 +25,9 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 <BaseLayout pageTitle={tag}>
-  <div class="flex justify-between">
+  <div class="flex justify-between items-center">
     <a href="/"><img class="w-1/6" src="/accueil.svg" alt=""></a>
-    <h3 class="text-2xl font-passion">Sarah Vidal</h3>
+    <h3 class="text-2xl font-passion text-center">Sarah Vidal</h3>
   </div>
   <div class="flex flex-col items-center gap-8 my-8">
     <h1 class="text-5xl font-passion z-10">{tag}</h1>
