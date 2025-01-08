@@ -14,7 +14,7 @@ tags: ["Identité graphique"]
 <section class="grid grid-cols-2 justify-center gap-28">
     <div class=" flex flex-col gap-6 py-6">
       <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
-      <p class="text-xl ">Pendant ma deuxième année en BUT MMI, mon binôme et moi avons réalisé la conception d'un bar à thème</p>
+      <p class="text-xl ">Pendant ma deuxième année en BUT MMI, nous avons travaillé sur la conception d’un bar à thème dans une ville cosmopolite de notre choix par groupe de deux. Nous avons opté pour un bar à bubble tea situé à Amsterdam. Dans ce cadre, nous avons conçu un logo, élaboré une stratégie de communication avec des affiches, et créé une maquette d'un site web. Nous avons également réalisé des mockups pour présenter des éléments tels que la carte de fidélité, le menu, et d'autres supports visuels. <br>Le concept de notre bar à bubble tea était axé sur l’écologie. Pour cela, les bubble teas seraient préparés uniquement avec des fruits de saison, et les billes de tapioca traditionnelles seraient remplacées par des billes à base de maïs, car le tapioca n’est pas originaire d’Amsterdam. Nous avons nommé ces billes innovantes "maïoca".</p>
     </div>
     <div class="flex justify-center items-center">
     <img class="w-2/3" src="/projet_bnb/logo.png" alt="">
