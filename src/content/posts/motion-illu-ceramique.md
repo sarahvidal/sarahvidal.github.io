@@ -4,7 +4,7 @@ author: Sarah Vidal
 description: ""
 
 image:
-  url: "/motion/coachella.png"
+  url: "/illustrations/ceramique_mockup.png"
   alt: "Mockup des illustrations des métiers de la céramique"
 pubDate: 2022-07-15
 tags: ["Motion design", "Illustrations vectorielles"]

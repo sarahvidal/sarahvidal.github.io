@@ -3,7 +3,7 @@ title: Icones
 author: Sarah Vidal
 description: ""
 image: 
-  url: "/illustrations/icone.jpg"
+  url: "/illustrations/icone_mockup.png"
   alt: "Image d'icones"
 pubDate: 2023-08-08
 tags: ["Illustrations vectorielles"]
