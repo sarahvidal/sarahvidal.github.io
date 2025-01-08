@@ -5,16 +5,16 @@ description: ""
 
 image:
   url: "/motion/coachella.png"
-  alt: "The word community with a heart."
+  alt: "Image du motion design de Coachella"
 pubDate: 2022-07-15
-tags: ["Motion design"]
+tags: ["Motion design", "UX UI"]
 ---
+<section class="flex flex-col items-center justify-center gap-28">
 
 <section class="grid grid-cols-2 gap-28">
-  <div class=" flex flex-col gap-4 py-6">
+  <div class=" flex flex-col gap-6 py-6">
     <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
-    <p class="text-xl ">Lors de mon stage à l'agence GEMAP, j'ai pu réaliser une partie d'un appel d'offre qui consistait à faire la refonte du site de la mairie de Panazol.
-Ma mission était de revoir l'arborescence du site avec le brief qu'avait donné le commanditaire ainsi que de réaliser des parcours utilisateurs. Par la suite j'ai réalisé un wireframe en prenant en compte ce qu'avait indiqué le client tout en faisant attention à ce que le site soitergonomique et facil d'utilisation. Enfin, j'ai aussi pu réalisé le début de la maquette du site en suivant leur charte graphique</p>
+    <p class="text-xl ">Lors de ma deuxième année en BUT MMI, nos professeurs nous ont proposé un projet consistant à concevoir la promotion d'un concours de talents pour le festival de Coachella. Travaillant en groupe de quatre, nous avons réalisé un motion design destiné à promouvoir le concours, ainsi qu'une maquette de la page dédiée à l'inscription des participants. Cette dernière devait respecter la charte graphique du site officiel de Coachella.</p>
   </div>
   <div>
   <video class="w-full" loop controls>
@@ -22,6 +22,12 @@ Ma mission était de revoir l'arborescence du site avec le brief qu'avait donné
   Votre navigateur ne supporte pas la vidéo HTML5.
   </video>
   </div>
+</section>
+
+<section class="flex items-center">
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/n40uZ6P3YdAxNZP2LX0nEN/Sa%C3%A9-3.02?node-id=225-27&starting-point-node-id=225%3A27&embed-host=share" allowfullscreen></iframe>
+</section>
+
 </section>
 
 

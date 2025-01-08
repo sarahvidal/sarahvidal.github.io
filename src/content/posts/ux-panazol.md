@@ -14,10 +14,9 @@ tags: ["UX UI"]
 <section class="flex flex-col gap-28">
 
 <section class="grid grid-cols-2 justify-between gap-28">
-    <div class=" flex flex-col gap-4 py-6">
+    <div class=" flex flex-col gap-6 py-6">
       <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
-      <p class="text-xl ">Lors de mon stage à l'agence GEMAP, j'ai pu réaliser une partie d'un appel d'offre qui consistait à faire la refonte du site de la mairie de Panazol.
-Ma mission était de revoir l'arborescence du site avec le brief qu'avait donné le commanditaire ainsi que de réaliser des parcours utilisateurs. Par la suite j'ai réalisé un wireframe en prenant en compte ce qu'avait indiqué le client tout en faisant attention à ce que le site soit ergonomique et facil d'utilisation. Enfin, j'ai aussi pu réalisé le début de la maquette du site en suivant leur charte graphique</p>
+      <p class="text-xl ">Lors de mon stage à l'agence GEMAP, j'ai contribué à une partie d'un appel d'offres portant sur la refonte du site de la mairie de Panazol. Ma mission consistait à revoir l'arborescence du site en respectant le brief fourni par le commanditaire, ainsi qu'à concevoir des parcours utilisateurs. Ensuite, j'ai réalisé un wireframe en tenant compte des indications du client, tout en veillant à ce que le site soit ergonomique et facile à utiliser. Enfin, j'ai commencé à élaborer la maquette du site en suivant la charte graphique de la mairie. Pour aider le client à mieux comprendre le wireframe, j'ai utilisé du bleu pour indiquer les éléments cliquables.</p>
     </div>
     <img class="w-full" src="/projet_panazol/arborescence.png" alt="">
 </section>

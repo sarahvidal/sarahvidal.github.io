@@ -11,31 +11,22 @@ tags: ["UX UI"]
 
 <section class="flex flex-col gap-28">
 
-<section class="grid grid-cols-2 justify-center gap-28">
-  <div class=" flex flex-col justify-center gap-4 py-6">
+<section class="flex flex-col items-center">
+  <div class=" flex flex-col gap-6 py-6 justify-center items-center w-2/3">
     <h3 class=" text-4xl font-passion">Mise en situation du projet</h3>
-    <p class="text-xl ">Lors de mon stage à l'agence GEMAP, j'ai pu réaliser une partie d'un appel d'offre qui consistait à faire la refonte du site de la mairie de Panazol.
-Ma mission était de revoir l'arborescence du site avec le brief qu'avait donné le commanditaire ainsi que de réaliser des parcours utilisateurs. Par la suite j'ai réalisé un wireframe en prenant en compte ce qu'avait indiqué le client tout en faisant attention à ce que le site soit ergonomique et facil d'utilisation. Enfin, j'ai aussi pu réalisé le début de la maquette du site en suivant leur charte graphique</p>
-  </div>
-  <div>
-    <img class="w-full" src="" alt="">
-    <img class="w-full" src="" alt="">
+    <p class="text-xl text-center">Lors de mon stage à l'agence GEMAP, j'ai travaillé sur le wireframe et la maquette du site "Goire Issoire". Pour faciliter la compréhension du client, j'ai utilisé du bleu pour mettre en évidence les éléments cliquables sur le wireframe.</p>
   </div>
 </section>
 
-<section class="grid grid-cols-2 gap-28">
+<section class="grid grid-cols-2 pb-16 gap-28">
   <div class="flex flex-col gap-16">
     <img class="w-full" src="/public/projet_goire-issoire/accueil.png" alt="">
-    <img class="w-full" src="/public/projet_goire-issoire/contrat-territorial.png" alt="">
     <img class="w-full" src="/public/projet_goire-issoire/territoire-enjeux.png" alt="">
-    <img class="w-full" src="/public/projet_goire-issoire/actu.png" alt="">
   </div>
 
   <div class="flex flex-col gap-16">
     <img class="w-full" src="/public/projet_goire-issoire/maquette-accueil.png" alt="">
-    <img class="w-full" src="/public/projet_goire-issoire/maquette-contrat-territorial.png" alt="">
     <img class="w-full" src="/public/projet_goire-issoire/maquette-territoire-enjeux.png" alt="">
-    <img class="w-full" src="/public/projet_goire-issoire/maquette-actu.png" alt="">
   </div>
 </section>
 
