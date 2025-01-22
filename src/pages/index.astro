@@ -7,27 +7,28 @@ const pageTitle = "Home2";
 <BaseLayout pageTitle={pageTitle}>
   <section class="h-screen flex flex-col items-center mt-24 gap-48">
     <div class="relative w-full">
-      <h3 class="font-passion text-2xl sm:text-5xl text-center">Sarah Vidal</h3>
-      <img class="absolute left-[55%] w-80" src="/a-propos.svg" alt="" />
+      <h3 class="font-passion text-3xl sm:text-4xl md:text-5xl text-center">Sarah Vidal</h3>
+      <img class="absolute left-[30%] sm:left-[55%] w-60 sm:w-72 md:w-80" src="/a-propos.svg" alt="" />
     </div>
     <div class="flex flex-col items-center m-4 gap-10">
       <div class="relative flex flex-col gap-8 w-full">
         <h1
-          class="lg:text-11xl md:text-10xl sm:text-9xl text-8xl font-passion tracking-widest relative z-10"
+          class="lg:text-11xl md:text-10xl sm:text-9xl xs:text-8xl text-7xl font-passion tracking-widest relative z-10"
         >
           Portfolio
         </h1>
         <img
-          class="w-12 lg:w-14 left-[82%] bottom-[79%] absolute"
+          class="w-6 xs:w-8 sm:w-10 md:w-12 lg:w-14 left-[82%] xs:left-[67%] sm:left-[76%] md:left-[82%] bottom-[89%] xs:bottom-[87%] sm:bottom-[81%] md:bottom-[79%] absolute"
           src="/petales.svg"
           alt=""
         />
         <div
           class="inset-0 -z-10 bg-no-repeat bg-contain before:absolute before:inset-0 before:bg-[url('/public/contour-titre.svg')] before:h-full before:w-full
           before:bg-no-repeat 
-          before:scale-[0.4] sm:before:scale-[0.5] md:before:scale-[0.62] lg:before:scale-[0.8] 
-          before:-translate-x-38 sm:before:-translate-x-38 md:before:-translate-x-33 lg:before:-translate-x-24 
-          before:-translate-y-18 sm:before:-translate-y-13 md:before:-translate-y-10 lg:before:-translate-y-5 "
+          before:scale-[0.2] xs:before:scale-[0.4] sm:before:scale-[0.5] md:before:scale-[0.62] lg:before:scale-[0.8] 
+          xs:before:-translate-x-38 sm:before:-translate-x-38 md:before:-translate-x-33 lg:before:-translate-x-24 
+          xs:before:-translate-y-18 sm:before:-translate-y-13 md:before:-translate-y-10 lg:before:-translate-y-5 
+          before:hidden xs:before:block"
         >
         </div>
         <div class="relative w-full ">
@@ -35,22 +36,22 @@ const pageTitle = "Home2";
           <img
             src="/fleche-gauche.svg"
             alt=""
-            class="absolute right-[85%] top-full my-5 w-36 lg:w-40"
+            class="absolute right-[85%] top-full my-5 w-28 md:w-36 lg:w-40 hidden sm:block"
           />
           <img
             src="/fleche-gauche2.svg"
             alt=""
-            class="absolute left-[39%] lg:left-[40%] top-full my-5 w-9 lg:w-10"
+            class="absolute left-[38%] md:left-[39%] lg:left-[40%] top-full my-5 w-7 md:w-9 lg:w-10 hidden sm:block"
           />
           <img
             src="/fleche-droite2.svg"
             alt=""
-            class="absolute left-[54%] bottom-full my-6 w-24 lg:w-28"
+            class="absolute left-[54%] bottom-full my-6 w-20 md:w-24 lg:w-28 hidden sm:block"
           />
           <img
             src="/fleche-droite.svg"
             alt=""
-            class="absolute left-[95%] lg:left-[91%] top-[10%] w-44 lg:w-48"
+            class="absolute left-full md:left-[95%] lg:left-[91%] top-[10%] w-36 md:w-44 lg:w-48 hidden sm:block"
           />
         </div>
       </div>
