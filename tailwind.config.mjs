@@ -11,17 +11,19 @@ export default {
 		  '11xl': '13rem',
 		  '10xl': '10rem',
 		},
-		backgroundColor: {
-		  'light-red': '#D54F40',
-		},
 		screens: {
 		  'xs': '500px',
+		  'lg2': '1200px',
+		  'xl2': '1360px',
 		},
 		translate: {
 		  '33': '8.45rem',
 		  '38': '9.3rem',
 		  '13': '3.1rem',
 		  '18': '4.4rem',
+		},
+		colors:{
+			'custom-blue': '#001AFF'
 		}
 	  },
 	},
