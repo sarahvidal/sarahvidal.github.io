@@ -21,7 +21,7 @@ tags: ["Motion design", "Illustrations vectorielles"]
           alt="pétales de fleur"
         />
     </div>
-      <p class="text-base text-center md:text-left sm:text-xl">
+      <p class="text-base sm:text-base xl:text-xl md:text-left sm:text-xl">
         Pendant ma troisième année de BUT MMI, nous avons travaillé sur un projet visant à promouvoir les métiers de la céramique. Cette fausse commande provenait de l'office de tourisme de Limoges. Dans un premier temps, j'ai réalisé des illustrations représentant des personnages associés à différents métiers liés à la céramique, tels que potiers ou émailleurs. J'avais carte blanche pour le style graphique, mais il était impératif d'utiliser Illustrator. Une fois mes illustrations finalisées, j'ai conçu un motion design destiné à susciter l'envie de découvrir ces métiers.
       </p>
     </div>

@@ -19,7 +19,7 @@ tags: ["Illustrations vectorielles"]
           alt="pétales de fleur"
         />
   </div>
-    <p class="text-base sm:text-xl text-center">
+    <p class="text-base sm:text-base xl:text-xl text-center">
       Lors de ma première année en BUT MMI, j'ai dû réaliser une affiche d'un film. Le but de cet exercice était de simplifier l'affiche au maximum tout en reconnaissant le film en question.
     </p>
   </div>

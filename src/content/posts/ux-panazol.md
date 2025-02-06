@@ -14,7 +14,7 @@ tags: ["UX UI"]
 <section class="flex flex-col gap-28">
 
   <section class="flex flex-col lg2:grid lg2:grid-cols-2 lg2:justify-between gap-28">
-    <div class="flex flex-col gap-6 py-6 items-center md:items-start">
+    <div class="flex flex-col gap-6 py-6 items-center lg:items-start">
       <div class="relative">
         <h3 class="text-2xl sm:text-4xl font-passion">Mise en situation du projet</h3>
         <img
@@ -23,7 +23,7 @@ tags: ["UX UI"]
           alt="pétales de fleur"
         />
       </div>
-      <p class="text-base sm:text-xl text-center md:text-left">
+      <p class="text-base sm:text-base xl:text-xl text-center lg:text-left">
         Lors de mon stage à l'agence GEMAP, j'ai contribué à une partie d'un appel d'offres portant sur la refonte du site de la mairie de Panazol. Ma mission consistait à revoir l'arborescence du site en respectant le brief fourni par le commanditaire, ainsi qu'à concevoir des parcours utilisateurs. Ensuite, j'ai réalisé un wireframe en tenant compte des indications du client, tout en veillant à ce que le site soit ergonomique et facile à utiliser. Enfin, j'ai commencé à élaborer la maquette du site en suivant la charte graphique de la mairie. Pour aider le client à mieux comprendre le wireframe, j'ai utilisé du bleu pour indiquer les éléments cliquables.
       </p>
     </div>
@@ -43,7 +43,7 @@ tags: ["UX UI"]
     <img class="w-full lg:col-span-2" src="/projet_panazol/nouvelhabitant.png" alt="extrait du wireframe de la page nouvel habitant du site">
   </section>
 
-  <section class="flex items-center gap-8 relative pt-10">
+  <section class="flex flex-col md:flex-row items-center gap-8 relative pt-10">
     <img class="w-[22rem] absolute left-[50%] bottom-[95%] hidden lg2:block" src="/projet_panazol/fleche-proto.svg" alt="flèche montrant les prototypes">
     <iframe
       class="w-full md:w-3/4 lg:w-2/3"
