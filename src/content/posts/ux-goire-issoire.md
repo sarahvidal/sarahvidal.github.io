@@ -22,12 +22,12 @@ tags: ["UX UI"]
 
   <section class="grid grid-cols-1 md:grid-cols-2 gap-16 pb-16">
     <div class="flex flex-col gap-8">
-      <img class="w-full" src="/public/projet_goire-issoire/accueil.png" alt="Wireframe accueil">
-      <img class="w-full" src="/public/projet_goire-issoire/territoire-enjeux.png" alt="Wireframe territoire et enjeux">
+      <img class="w-full" src="/projet_goire-issoire/accueil.png" alt="Wireframe accueil">
+      <img class="w-full" src="/projet_goire-issoire/territoire-enjeux.png" alt="Wireframe territoire et enjeux">
     </div>
     <div class="flex flex-col gap-8">
-      <img class="w-full" src="/public/projet_goire-issoire/maquette-accueil.png" alt="Maquette accueil">
-      <img class="w-full" src="/public/projet_goire-issoire/maquette-territoire-enjeux.png" alt="Maquette territoire et enjeux">
+      <img class="w-full" src="/projet_goire-issoire/maquette-accueil.png" alt="Maquette accueil">
+      <img class="w-full" src="/projet_goire-issoire/maquette-territoire-enjeux.png" alt="Maquette territoire et enjeux">
     </div>
   </section>
 

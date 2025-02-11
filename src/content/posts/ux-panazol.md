@@ -14,7 +14,7 @@ tags: ["UX UI"]
 <section class="flex flex-col gap-28">
 
   <section class="flex flex-col lg2:grid lg2:grid-cols-2 lg2:justify-between gap-28">
-    <div class="flex flex-col gap-6 py-6 items-center lg:items-start">
+    <div class="flex flex-col gap-6 py-6 items-center lg2:items-start">
       <div class="relative">
         <h3 class="text-2xl sm:text-4xl font-passion">Mise en situation du projet</h3>
         <img
@@ -23,14 +23,14 @@ tags: ["UX UI"]
           alt="pétales de fleur"
         />
       </div>
-      <p class="text-base sm:text-base xl:text-xl text-center lg:text-left">
+      <p class="text-base sm:text-base xl:text-xl text-center lg2:text-left">
         Lors de mon stage à l'agence GEMAP, j'ai contribué à une partie d'un appel d'offres portant sur la refonte du site de la mairie de Panazol. Ma mission consistait à revoir l'arborescence du site en respectant le brief fourni par le commanditaire, ainsi qu'à concevoir des parcours utilisateurs. Ensuite, j'ai réalisé un wireframe en tenant compte des indications du client, tout en veillant à ce que le site soit ergonomique et facile à utiliser. Enfin, j'ai commencé à élaborer la maquette du site en suivant la charte graphique de la mairie. Pour aider le client à mieux comprendre le wireframe, j'ai utilisé du bleu pour indiquer les éléments cliquables.
       </p>
     </div>
     <div class="relative">
       <img class="w-full" src="/projet_panazol/arborescence.png" alt=" extrait d'une arborescence d'un profil">
-      <img class=" w-64 absolute lg:top-[45%] xl:top-[50%] xl2:top-[60%] right-[65%] hidden lg2:block" src="/projet_panazol/fleche-profil.svg" alt="flèche montrant le profil">
-      <img class="w-[22rem] absolute lg2:top-[75%] xl:top-[91%] lg2:left-[25%] xl:left-[16%] hidden lg2:block" src="/projet_panazol/fleche-section.svg" alt="flèche montrant les sections">
+      <img class=" w-64 absolute lg:top-[60%] xl:top-[50%] xl2:top-[60%] right-[65%] hidden lg:block" src="/projet_panazol/fleche-profil.svg" alt="flèche montrant le profil">
+      <img class="w-[22rem] absolute lg:top-[95%] xl:top-[91%] lg2:left-[25%] xl:left-[16%] hidden lg:block" src="/projet_panazol/fleche-section.svg" alt="flèche montrant les sections">
     </div>
   </section>
 
