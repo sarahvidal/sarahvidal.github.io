@@ -6,14 +6,13 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
   <div class="flex justify-between items-center">
     <a href="/"><img class="sm:w-1/6 w-1/3" src="/accueil.svg" alt=""></a>
-    <a href=""><h3 class="sm:text-2xl text-lg font-passion text-center text-nowrap">Sarah Vidal</h3></a>
+    <a href="/about"><h3 class="sm:text-2xl text-lg font-passion text-center text-nowrap">Sarah Vidal</h3></a>
   </div>
-  <div class="flex justify-center items-center md:gap-28">
+  <div class="flex justify-between items-center w-full">
     <a href="#" id="backButton">
       <img class="w-16 hidden md:block" src="/btn-retour.svg" alt="bouton retour" />
     </a>
-
-    <h1 class="text-3xl sm:text-4xl md:text-5xl text-center my-12 font-passion">{frontmatter.title}</h1>
+    <h1 class="text-3xl sm:text-4xl md:text-5xl text-center my-12 font-passion flex-1">{frontmatter.title}</h1>
   </div>
 
   <slot />

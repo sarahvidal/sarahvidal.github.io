@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import NavBis from "../components/NavBis.astro";
-const pageTitle = "Home2";
+const pageTitle = "Home";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
   <section class="h-screen flex flex-col items-center mt-10 md:mt-12 gap-28 sm:gap-36 md:gap-48">
     <div class="relative w-full">
-      <h3 class="font-passion text-3xl sm:text-4xl md:text-5xl text-center">Sarah Vidal</h3>
-      <img class="absolute left-[30%] sm:left-[55%] w-60 sm:w-72 md:w-80" src="/a-propos.svg" alt="" />
+      <a href="/about"><h3 class="font-passion text-3xl sm:text-4xl md:text-5xl text-center">Sarah Vidal</h3></a>
+      <img class="absolute left-[30%] sm:left-[55%] w-60 sm:w-72 md:w-80" src="/a-propos.svg" alt="flèche montrant mon nom" />
     </div>
     <div class="flex flex-col items-center m-4 gap-10">
       <div class="relative flex flex-col gap-8 w-full">

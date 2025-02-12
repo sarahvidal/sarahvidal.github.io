@@ -20,7 +20,9 @@ tags: ["UX UI"]
     </div>
   </section>
 
-  <section class="grid grid-cols-1 md:grid-cols-2 gap-16 pb-16">
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-16 pb-16 relative">
+    <img class="absolute lg:w-32 xl:w-40 bottom-full pb-4 right-[85%] hidden md:block" src="/projet_goire-issoire/fleche-avant.svg" alt="flèche montrant le avant">
+    <img class="absolute lg:w-32 xl:w-40 bottom-full pb-4 left-[85%] hidden md:block" src="/projet_goire-issoire/fleche-apres.svg" alt="flèche montrant le après">
     <div class="flex flex-col gap-8">
       <img class="w-full" src="/projet_goire-issoire/accueil.PNG" alt="Wireframe accueil">
       <img class="w-full" src="/projet_goire-issoire/territoire-enjeux.PNG" alt="Wireframe territoire et enjeux">
