@@ -23,7 +23,7 @@ export default {
 		  '18': '4.4rem',
 		},
 		colors:{
-			'custom-blue': '#001AFF'
+			'bleu': '#001AFF'
 		}
 	  },
 	},
