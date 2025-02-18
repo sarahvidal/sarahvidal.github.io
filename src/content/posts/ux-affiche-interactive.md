@@ -26,8 +26,8 @@ tags: ["UX UI"]
   </div>
   <div class="relative">
   <img
-          class="lg:w-48 xl:w-64 lg:left-full xl:left-[95%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
-          src="/projet_coachella/fleche-wireframe.svg"
+          class="md:w-32 lg:w-40 lg:left-full xl:left-[95%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
+          src="/illustrations/fleche-affiche.svg"
           alt="flèche montrant le prototype"
         />
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/JvfPW7vOR8COBl5k7iSotu/frise?node-id=4-2189&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2189&embed-host=share" allowfullscreen></iframe>

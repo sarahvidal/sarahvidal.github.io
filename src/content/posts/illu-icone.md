@@ -9,7 +9,7 @@ pubDate: 2023-08-08
 tags: ["Illustrations vectorielles"]
 ---
 
-<section class="flex flex-col items-center gap-28 px-4">
+<section class="flex flex-col items-center gap-16 lg:gap-28 px-4">
 
   <div class="flex flex-col gap-6 py-6 justify-center items-center w-full sm:w-2/3">
   <div class="relative">
@@ -25,7 +25,8 @@ tags: ["Illustrations vectorielles"]
     </p>
   </div>
 
-  <div class="flex flex-row justify-center">
+  <div class="flex flex-row justify-center relative">
+  <img class="absolute md:w-40 left-[10%] bottom-full pb-4 hidden md:block" src="/illustrations/fleche-icones.svg" alt="flèche montrant les illustrations">
     <img class="w-full sm:w-2/3 md:w-1/2" src="/illustrations/icone.jpg" alt="Illustration d'icônes">
   </div>
 </section>
