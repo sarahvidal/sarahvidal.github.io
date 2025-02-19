@@ -20,7 +20,7 @@ tags: ["Illustrations vectorielles", "Identité graphique"]
         />
   </div>
     <p class="text-base sm:text-base xl:text-xl text-center">
-      Lors de ma première année en BUT MMI, j'ai dû réaliser une affiche d'un film. Le but de cet exercice était de simplifier l'affiche au maximum tout en reconnaissant le film en question.
+      Lors de ma troisième année en BUT MMI, on nous a demandé de créer un événement local. J'ai choisi d'organiser un marché artisanal sur le thème de la vache limousine. Les artisans créant des objets sur ce thème ou utilisant le cuir, par exemple, pouvaient exposer. Des agriculteurs étaient également présents pour faire découvrir leur métier et leurs animaux. Une fois l'idée définie, nous sommes passés à la création de la communication du projet. Nous avions préalablement établi des cibles types afin d'adapter notre communication.
     </p>
   </div>
 

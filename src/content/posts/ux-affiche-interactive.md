@@ -21,7 +21,7 @@ tags: ["UX UI"]
         />
   </div>
     <p class="text-base sm:text-base xl:text-xl text-center">
-      Au début de ma deuxième année de BUT MMI, j'ai conçu la maquette d'une application destinée à être utile à un personnage de fiction. J'ai choisi de créer une application éducative pour aider le héros Harry Potter dans ses cours.
+      Pendant ma deuxième année de MMI, nous avions pour projet de réaliser une frise chronologique sur les mouvements artistiques étudiés en cours. Le but était de présenter un artiste marquant de chaque mouvement ainsi que le mouvement lui-même. Pour la réalisation, nous avions la liberté de concevoir le style de la frise et de lui donner un nom.
     </p>
   </div>
   <div class="relative">
