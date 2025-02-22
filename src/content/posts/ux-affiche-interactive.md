@@ -26,7 +26,7 @@ tags: ["UX UI"]
   </div>
   <div class="relative">
   <img
-          class="md:w-32 lg:w-40 lg:left-full xl:left-[95%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
+          class="md:w-32 lg:w-40 lg:left-full xl:left-[98%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
           src="/illustrations/fleche-affiche.svg"
           alt="flèche montrant le prototype"
         />

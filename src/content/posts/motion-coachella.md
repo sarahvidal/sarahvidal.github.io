@@ -39,7 +39,7 @@ tags: ["Motion design", "UX UI"]
   </section>
   <section class="flex flex-col items-center w-full px-4 relative">
       <img
-          class="lg:w-48 xl:w-64 left-[80%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden md:block"
+          class="lg:w-48 xl:w-64 left-[85%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden md:block"
           src="/projet_coachella/fleche-wireframe.svg"
           alt="flèche montrant le prototype"
         />

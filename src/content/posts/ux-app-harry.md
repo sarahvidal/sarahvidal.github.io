@@ -26,7 +26,7 @@ tags: ["UX UI"]
   </div>
   <div class="relative">
   <img
-          class="lg:w-48 xl:w-64 lg:left-full xl:left-[95%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
+          class="lg:w-48 xl:w-64 lg:left-full xl:left-[92%] lg:bottom-[77%] xl:bottom-[67%] absolute hidden lg:block"
           src="/projet_coachella/fleche-wireframe.svg"
           alt="flèche montrant le prototype"
         />
